@@ -1,0 +1,181 @@
+body {
+  
+  background: #141E30;
+  margin: 0;
+  padding: 0;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+
+h1 {
+  color: #FFF;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 32px;
+  padding-top: 100px;
+  text-align: left;
+  width: 60%;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 28px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: justify;
+  width: 70%;
+
+}
+
+h3{
+  
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
+}
+
+p {
+  color: AliceBlue;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 34px;
+  text-align: left;
+  width: 100%;
+}
+
+footer {
+  color: AliceBlue;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 34px;
+  text-align: left;
+  width: 100%;
+  
+}
+
+table {
+   height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
+thead th {
+  background: #88CCF1;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+  font-size: 18px;
+}
+
+.byline {
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.65);
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+}
+
+.content {
+  padding: 40px;
+}
+
+.writer-img {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 50px;
+}
+
+.img1{
+width: 600px;
+height: 600px;
+margin: 0px auto
+
+}
+
+#image {
+background-image: url(http://i704.photobucket.com/albums/ww49/Leonicus/ManaNew.jpg);
+background-size: 1600px;
+height: 385px;
+}
+
+#image1{
+background-image: url(./Imagen4.jpg);
+background-size: 1600px;
+height: 485px;
+}
+
+#image2{
+background-image: url(./Tere.jpg);
+background-size: 1600px;
+height: 585px;
+}
+
+#boton {
+  
+  margin: 0px; 
+  height: 80px;
+  width: 80px;
+  float: right; 
+  width: 110px;
+  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
